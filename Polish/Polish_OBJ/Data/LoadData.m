@@ -36,7 +36,7 @@ INSTRDIR = 'INSTR';
 % Timing Variables
 DATA.BlockTotalNum = 12;
 Intro_Time = 3;
-Block_Time = 3.5
+Block_Time = 2.33
 Rest_Time = 10;
 
 
@@ -61,11 +61,15 @@ for i = 1:DATA.BlockTotalNum
     COUNTER = COUNTER+1;
     DATA.Timing(COUNTER) = DATA.Timing(COUNTER-1) + Intro_Time;
 
-    % Timing - SOUND1
+    % Timing - Image1
     COUNTER = COUNTER+1;
     DATA.Timing(COUNTER) = DATA.Timing(COUNTER-1) + Block_Time;
 
-    % Timing - SOUND2
+    % Timing - Image2
+    COUNTER = COUNTER+1;
+    DATA.Timing(COUNTER) = DATA.Timing(COUNTER-1) + Block_Time;
+    
+    % Timing - Image3
     COUNTER = COUNTER+1;
     DATA.Timing(COUNTER) = DATA.Timing(COUNTER-1) + Block_Time;
 
