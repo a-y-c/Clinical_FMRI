@@ -194,7 +194,7 @@ end
 % Function: Draw White Screen
 function [ TimeStamp ] = DrawWhiteScreen(WSS, RSS)
     % Draw / Display Fixation Point              
-    white = WhiteIndex(WSS)
+    white = WhiteIndex(WSS);
     Screen('FillRect', WSS, white , RSS);
     Screen('DrawingFinished', WSS);
     TimeStamp = Screen('Flip',WSS);
