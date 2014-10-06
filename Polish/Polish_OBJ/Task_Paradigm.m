@@ -140,9 +140,9 @@ for i = 1:DATA.BlockTotalNum
 
     %% Image One
     % Display Image One
-    DrawImageCenter(WSS, TI(2*i-1), DATA.ImageSizes{2*i-1});
+    DrawImageCenter(WSS, TI(3*i-2), DATA.ImageSizes{3*i-2});
     % Draw White Screen after 3 Seconds
-    WaitSecs(3);
+    WaitSecs(2);
     DrawWhiteScreen(WSS, RSS);
     % Wait till Block
     COUNTER = COUNTER+1;
@@ -150,15 +150,25 @@ for i = 1:DATA.BlockTotalNum
 
     %% Image Two
     % Display Image Two
-    DrawImageCenter(WSS, TI(2*i), DATA.ImageSizes{2*i});
+    DrawImageCenter(WSS, TI(3*i-1), DATA.ImageSizes{3*i-1});
     % Draw White Screen after 3 Seconds
-    WaitSecs(3);
+    WaitSecs(2);
     DrawWhiteScreen(WSS, RSS);
     % Wait till Block
     COUNTER = COUNTER+1;
     WaitSecs(DATA.Timing(COUNTER) - (GetSecs - StartTime)); 
 
-
+    %% Image Three
+    % Display Image Two
+    DrawImageCenter(WSS, TI(3*i), DATA.ImageSizes{3*i});
+    % Draw White Screen after 3 Seconds
+    WaitSecs(2);
+    DrawWhiteScreen(WSS, RSS);
+    % Wait till Block
+    COUNTER = COUNTER+1;
+    WaitSecs(DATA.Timing(COUNTER) - (GetSecs - StartTime)); 
+    
+    
     %% Cleanup Block
     % Close Sound Instruction
     %PsychPortAudio('Stop', Handel_RestNow); 
