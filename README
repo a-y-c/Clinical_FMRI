@@ -1,5 +1,40 @@
-Clinical FMRI 
+# PROJECT NAME: Clinical FMRI 
+#********************************************************************
+# DESCRIPTION:
+#   Psychtoolbox Stimulus for Clinical FMRI Language and Motor Mapping
+#
+#   Site:
+#       UCLA Ronald Regan Hospital
+#       UCLA Staglin Center for Cognitive Neuroscience
+#   
+#   Under the Direction of:
+#       Patricia Walshaw <pwalshaw@mednet.ucla.edu> 
+#       Monika Polczynska <plmonik@wa.amu.edu.pl> 
+#
+#
+#********************************************************************
+#
+# AUTHOR: Andrew Cho  
+# EMAIL: andrew.cho@engineering.ucla.edu
+# DATE: 2014-08-28
+#
+#********************************************************************
+
+DIRECTORY STRUCTURE:
+    Polish -
+        Polish_OBJ
+        Polish_ARN
+        Polish_VRN
 
 
+#*******************************************************************
 
-Psychtoolbox Stimulus for Clinical Language Mapping
+INSTRUCTIONS:
+    To Run the Stimilus ->
+       - Open up Matlab 
+       - Go to the Project Folder you want to run the task.
+       - Type in  "StaglinPTB" into the Command Window
+       - Hit "5" to start the scan (if it fails to capture the TR signal)
+        
+
+
