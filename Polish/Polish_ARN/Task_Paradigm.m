@@ -122,7 +122,7 @@ for i = 1:DATA.BlockTotalNum
 
     %% Instructions 
     % Display Image One
-    DrawImageCenter(WSS, INT(2), DATA.Instr.ImageSizes{2});
+    %DrawImageCenter(WSS, INT(2), DATA.Instr.ImageSizes{2});
     % Play RestNow Sound
     [Handel_Instr] = PlaySound(DATA.Instr.Sounds{2}, ...
                             DATA.Instr.Channels{2}, DATA.Instr.Freqs{2});
