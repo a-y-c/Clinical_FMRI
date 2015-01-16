@@ -34,11 +34,11 @@ VRNSDIR = 'VRNS';
 VRNS_INSTRDIR = 'INSTR';
 
 % Timing Variables
-DATA.BlockTotalNum = 9;
+DATA.BlockTotalNum = 12;
 Intro_Time = .5;
 First_Block_Time = 2.5;
 Block_Time = 3;
-Rest_Time = 10;
+Rest_Time = 12;
 
 
 % -----------------------------------------------------------------
@@ -48,7 +48,7 @@ fprintf('Loading Timing ...\n\n')
 % Timing - Beginning of Time
 DATA.Timing(1) = 0;
 % Timing - START REST 
-DATA.Timing(2) = 5;
+DATA.Timing(2) = 6;
 % DATA.Timing(COUNTER)
 COUNTER = 2;
 
@@ -128,7 +128,42 @@ DATA.Sentence = {
  'long orange vegetable';
  'a flying animal';
  'used for cutting wood';
- 'a white sweetener'};
+ 'a white sweetener'
+'tall pink bird';
+'write with it';
+'criminals go there';
+'smell with it';
+'jewelry for finger';
+'you read them';
+'winter holiday';
+'sit on them';
+'they lay eggs';
+'color of the sky'; 
+'people worship here';
+'hear with them'; 
+'people live in it';
+'purring housepet';
+'keeps hands warm';
+'eat with it';
+'fly in them';
+'they make wool';
+'it tells time';
+'color of coal';
+'animal that gives milk'; 
+'color of grass';
+'people sit on them';
+'animal that quacks';
+'a long yellow fruit';
+'people write with it';
+'keeps pants up';
+'wear on feet';
+'shines in the sky';
+'police car sound';
+'a barking animal'; 
+'color of snow';
+'long orange vegetable';
+'a flying animal';
+'used for cutting wood' };
 
 
 % -------------------------------------------------------------------

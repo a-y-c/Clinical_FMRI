@@ -34,7 +34,7 @@ OBJDIR = 'OBJ';
 INSTRDIR = 'INSTR';
 
 % Timing Variables
-DATA.BlockTotalNum = 9;
+DATA.BlockTotalNum = 12;
 Intro_Time = .5;
 First_Block_Time = 2.5;
 Block_Time = 3;
@@ -48,7 +48,7 @@ fprintf('Loading Timing ...\n\n')
 % Timing - Beginning of Time
 DATA.Timing(1) = 0;
 % Timing - START REST 
-DATA.Timing(2) = 5;
+DATA.Timing(2) = 6;
 % DATA.Timing(COUNTER)
 COUNTER = 2;
 
